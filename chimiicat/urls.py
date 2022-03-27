@@ -20,7 +20,5 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='home'),
-	# re_path(r'home/$', views.home, name='home'),
-	path('shop/', views.shop, name='shop'),
-    # path('admin/', admin.site.urls),
+    path('shop/', views.shop, name='shop'),
 ]
