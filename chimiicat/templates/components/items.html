@@ -1,0 +1,15 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">品牌</th>
+      <th scope="col">型號</th>
+      <th scope="col">價格</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for item in items %}
+      {% include 'components/item.html' %}
+    {% endfor %}
+  </tbody>
+</table>

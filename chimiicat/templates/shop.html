@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include 'components/head.html' %}
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    {% include "components/navbar.html" %}
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <hr></hr>
+      <hr></hr>
+      <hr></hr>
+      <!-- START THE FEATURETTES -->
+      {% include "components/items.html" %}
+
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      {% include "components/footer.html" %}
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    {% include "resources/scripts.html" %}
+  </body>
+</html>
